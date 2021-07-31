@@ -20,6 +20,9 @@
             "language": "warfarin",
             "scopeName": "source.warfarin",
             "path": "./syntaxes/warfarin.tmLanguage.json"
-        }]
+        }],
+        "activationEvents": [
+            "*"
+        ]
     }
 }
