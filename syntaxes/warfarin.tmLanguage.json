@@ -1,0 +1,49 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Warfarin",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#functions"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.warfarin",
+					"match": "\\b(import|if|else|elseif|while|for|function|return)\\b"
+				},
+				{
+					"name": "keyword.operator",
+					"match": "\\b(Number|String)\\b"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.warfarin",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.warfarin",
+					"match": "\\\\."
+				}
+			]
+		},
+		"functions": {
+			"patterns": [
+				{
+					"name": "variable.function",
+					"match": "\\b(warfarin|print|exit|len|system|alert|clock|math_sin|math_cos|math_tan|read_number|read_string|read_str_line|file_read_number|file_read_string|file_read_str_line|file_write_number|file_write_string|file_open|file_close|file_eof|math_asin|math_acos|math_atan|math_sqrt|random|set_seed|eval|toascii|tostr|xor|math_pi|null|true|false|readonly|typeof|find_window|show_window|get_foreground_window|set_window_text|sleep|substr|get_async_key_state|load_dll_func)\\b"
+				}
+			]
+		}
+	},
+	"scopeName": "source.warfarin"
+}
