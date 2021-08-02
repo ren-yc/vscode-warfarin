@@ -2,7 +2,29 @@
     "name": "vscode-warfarin",
     "displayName": "vscode-warfarin",
     "description": "Warfarin Language Support Extension for VSCode",
-    "version": "1.0.1",
+    "version": "1.0.2",
+    "readme": "README.md",
+    "license": "SEE LICENSE IN LICENSE",
+    "publisher": "ren-yc",
+    "icon": "https://ren-yc.github.io/assets/img/LanguageWarfarin_color_128x.png",
+    "author": {
+        "name": "ren-yc"
+    },
+    "bugs": {
+        "url": "https://github.com/ren-yc/vscode-warfarin/issues",
+        "email": "ldfx_ryc@163.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ren-yc/vscode-warfarin.git"
+    },
+    "keywords": [
+        "Warfarin",
+        "华法林",
+        "ff0",
+        "ff0-script",
+        "script"
+    ],
     "engines": {
         "vscode": "^1.58.0"
     },
@@ -10,17 +32,21 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "warfarin",
-            "aliases": ["Warfarin", "warfarin"],
-            "extensions": [".wfr"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "warfarin",
-            "scopeName": "source.warfarin",
-            "path": "./syntaxes/warfarin.tmLanguage.json"
-        }],
+        "languages": [
+            {
+                "id": "warfarin",
+                "aliases": ["Warfarin", "warfarin"],
+                "extensions": [".wfr"],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "warfarin",
+                "scopeName": "source.warfarin",
+                "path": "./syntaxes/warfarin.tmLanguage.json"
+            }
+        ],
         "activationEvents": [
             "*"
         ]

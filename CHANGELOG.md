@@ -1,9 +1,13 @@
-# Change Log
+## Releases
 
-All notable changes to the "vscode-warfarin" extension will be documented in this file.
+### 1.0.0 Initial release
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+Generation Framework for VSCode Extendion.
 
-## [Unreleased]
+### 1.0.1 Highlight
 
-- Initial release
+Make keywords in ".wfr" file highlighted.
+
+### 1.0.2 Keywords
+
+Change all types to keyword.

@@ -16,8 +16,8 @@
 		"keywords": {
 			"patterns": [
 				{
-				"name": "keyword.control.warfarin",
-				"match": "\\b(import|if|else|elseif|while|for|function|return|foreach|lambda|break|continue)\\b"
+					"name": "keyword.control.warfarin",
+					"match": "\\b(import|if|else|elseif|while|for|function|return|foreach|lambda|break|continue|String|Number)\\b"
 				}
 			]
 		},
