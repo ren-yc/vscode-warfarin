@@ -11,3 +11,7 @@ Make keywords in ".wfr" file highlighted.
 ### 1.0.2 Keywords
 
 Change all types to keyword.
+
+### 1.0.3 Notes
+
+Updated notes for Warfarin Version 3.31.

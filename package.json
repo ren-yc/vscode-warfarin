@@ -1,12 +1,12 @@
 {
-    "name": "vscode-warfarin",
+    "name": "Warfarin",
     "displayName": "vscode-warfarin",
     "description": "Warfarin Language Support Extension for VSCode",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "readme": "README.md",
     "license": "SEE LICENSE IN LICENSE",
     "publisher": "ren-yc",
-    "icon": "https://ren-yc.github.io/assets/img/LanguageWarfarin_color_128x.png",
+    "icon": "LanguageWarfarin_color_128x.png",
     "author": {
         "name": "ren-yc"
     },
