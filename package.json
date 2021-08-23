@@ -1,8 +1,8 @@
 {
-    "name": "Warfarin",
+    "name": "vscode-warfarin",
     "displayName": "vscode-warfarin",
     "description": "Warfarin Language Support Extension for VSCode",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "readme": "README.md",
     "license": "SEE LICENSE IN LICENSE",
     "publisher": "ren-yc",

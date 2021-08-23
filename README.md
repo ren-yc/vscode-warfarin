@@ -4,7 +4,7 @@
 
 This is an vscode warfarin language support extension.
 
-**For Warfarin Version 3.17**
+**For Warfarin Version 3.31**
 
 About Warfarin(ff0-script), see [this(Chinese)](https://www.luogu.com.cn/blog/Warfarin/ff0-faq).
 
