@@ -1,3 +1,7 @@
+# This repository had already been archived by ren-yc.
+
+# You can use Rust Language Extendsion to continue programming by Warfarin / RBQScript.
+
 # Warfarin README
 
 ## About
